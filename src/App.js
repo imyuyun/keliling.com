@@ -1,25 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import MainConten from './components/MainConten';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return(
+    // jika memiliki lebih dari 1 komponen maka di bungkus dengan div
+    <MainConten />
+  )
 }
 
 export default App;
