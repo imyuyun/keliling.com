@@ -1,4 +1,4 @@
-import { Carousel } from "react-bootstrap";
+import { Carousel, Button } from "react-bootstrap";
 import gambar1 from "./../Assets/awal.jpg";
 import gambar2 from "./../Assets/candi.jpg";
 import gambar3 from "./../Assets/kebumen.jpg";
@@ -15,24 +15,24 @@ const HomePage = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>LIHAT SELENGKAPNYA</h3>
-            <p>BROMO</p>
+            <Button variant="primary">Lihat Selengkapnya</Button>
+            <h1 className="row my-3 justify-content-center">BROMO</h1>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block w-100" src={gambar2} alt="Second slide" />
 
           <Carousel.Caption>
-            <h3>LIHAT SELENGKAPNYA</h3>
-            <p>BALI.</p>
+            <Button variant="primary">Lihat Selengkapnya</Button>
+            <h1 className="row my-3 justify-content-center">BALI</h1>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block w-100" src={gambar3} alt="Kebumen" />
 
           <Carousel.Caption>
-            <h3>LIHAT SELENGKAPNYA</h3>
-            <p>SAWAH</p>
+            <Button variant="primary">Lihat Selengkapnya</Button>
+            <h1 className="row my-3 justify-content-center">Pokoknya Indonesia</h1>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
