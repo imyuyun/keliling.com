@@ -1,7 +1,7 @@
 import { Navbar, Container, Nav, NavDropdown, Form, FormControl, Button } from "react-bootstrap";
 const Navigation = () => {
   return (
-    <Navbar bg="danger" variant="dark" expand="lg">
+    <Navbar bg="danger" variant="dark" expand="lg" fixed="top">
       <Container>
         <Navbar.Brand href="#">Keliling.com</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
