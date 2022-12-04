@@ -1,6 +1,9 @@
+import React from 'react';
 import './App.css';
 import MainConten from './components/MainConten';
 import Navigation from "./component/Navigation";
+import Hotel from './component/Hotel';
+import Flight from './component/Flight';
 
 function App() {
   return(
@@ -8,6 +11,8 @@ function App() {
   <div>
     <Navigation />
     <MainConten />
+    <Hotel />
+    <Flight />
   </div> 
   )
 }

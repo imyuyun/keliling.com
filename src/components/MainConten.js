@@ -1,3 +1,4 @@
+import React from "react";
 import HomePage from "./HomePage";
 import CardDestination from "./CardDestination";
 import Bali from "./../Assets/bali.jpg";
@@ -6,6 +7,7 @@ import Raja4 from "./../Assets/raja4.jpg"
 import Derawan from "./../Assets/derawan.jpg";
 import Komodo from "./../Assets/komodo.jpg";
 import Lombok from "./../Assets/lombok.jpg";
+
 
 
 // finction maincontent
@@ -43,6 +45,7 @@ const MainConten = ()=> {
                     </div>
             </div>
         </div>
+
         </div>
     )
 

@@ -1,3 +1,4 @@
+import React from "react";
 import { Carousel, Button } from "react-bootstrap";
 import gambar1 from "./../Assets/awal.jpg";
 import gambar2 from "./../Assets/candi.jpg";
